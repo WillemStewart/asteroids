@@ -44,7 +44,7 @@ def main():
             for blt in shots:
                 if thing.collide_detect(blt):
                     blt.kill()
-                    thing.kill()
+                    thing.split()
 
         screen.fill('black')
 
